@@ -13,7 +13,7 @@ for x in line:
     if x not in list:
         list.append(x)
 
-print(len(list))
+print("Harry Potter has", len(list), "unique words")
 
 fp2 = open ("Moby_Dick")
 list2 = []
@@ -29,7 +29,7 @@ for x in line2:
     if x not in list2:
         list2.append(x)
 
-print(len(list2))
+print("Moby Dick has",len(list2), "unique words")
 
 a=len(list)
 b=len(list2)
